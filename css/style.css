@@ -1,0 +1,358 @@
+/* INICIO - Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FIM - Reset CSS*/
+
+/* INICIO - Configurações padrão para todas as tags*/
+a {
+    text-decoration: none;
+    color: black
+}
+
+h1 {
+    text-transform: uppercase
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+/* FIM - Configurações padrão para todas as tags*/
+
+/* INICIO - Configurações do menu de mavegação*/
+
+.container-logo {
+    display: inline-flex;
+}
+
+.container-menu {
+    display: inline-flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    gap: 15px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+/* FIM - Configurações do menu de mavegação*/
+
+/* INICIO - Configuração da imagem e título principal*/
+
+header img {
+    width: 100%;
+    margin: 0;
+}
+
+header h1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* FIM - Configuração da imagem e título principal*/
+
+/* INICIO - Configuração do main*/
+.main-hd {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+main img {
+    width: 424px;
+    left: 149px;
+    top: 550px;
+    margin: 50px;
+}
+
+.maintext {
+    flex-wrap: wrap;
+}
+
+/* FIM - Configuração do main*/
+
+
+/* INICIO - Configuração do rodapé */
+
+footer {
+    width: 100vw;
+    height: 50px;
+    padding: 25px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+/* FIM - Configuração do rodapé*/
+
+/*FIM DA PÁGINA PRINCIPAL INDEX*/
+
+
+/* INICIO - PÁGINA SOBRE*/
+
+.container-sobre h3 {
+    font-size: 45px;
+    color: #fff;
+    background-color: darksalmon;
+    width: 100vw;
+    height: 75px;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0 45px 0;
+    gap: 50px;
+}
+
+.texto-sobre {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    padding: 15px;
+}
+
+.mapouter {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+    margin: 25px;
+}
+
+.gmap_canvas {
+    display: flex;
+    justify-content: center;
+    background: none !important;
+    height: 400px;
+    width: 600px;
+}
+
+/* FIM - PÁGINA SOBRE*/
+
+/* INICIO - PAGINA DA EQUIPE*/
+/* Imagens aleatórias - Essa pessoas não existem. São criadas por inteligencia artificial (https://thispersondoesnotexist.com/)*/
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+.container-equipe {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px 50px 20px;
+    gap: 40px;
+    width: 80vw;
+    height: 80vh;
+    margin: 30px;
+}
+
+
+.container-equipe img {
+    width: 200px;
+}
+
+.container-equipe h3 {
+    margin: 20px;
+}
+
+/* FIM - PAGINA DA EQUIPE*/
+
+
+/* INICIO - PAGINA DE PRODUTOS*/
+
+#mainprodutos {
+    margin: 10px
+}
+
+#mainprodutos h3 {
+    margin: 20px 0 20px 0;
+    font-size: 45px;
+    color: #fff;
+    background-color: darksalmon;
+    width: 100vw;
+    height: 75px;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#mainprodutos button {
+    border: solid black 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px
+}
+
+.linha1 img {
+    width: auto;
+    align-items: center;
+}
+
+.linha1 p {
+    background-color: green;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/*FINAL DA LINHA 1*/
+.linha2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linha2 img {
+    width: auto;
+    align-items: center;
+}
+
+.linha2 p {
+    background-color: green;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*FINAL DA LINHA 2*/
+.linha3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linha3 img {
+    width: auto;
+    align-items: center;
+}
+
+.linha3 p {
+    background-color: green;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FIM - PAGINA DE PRODUTOS */
+
+
+
+/* INICIO - PAGINA DE CONTATOS*/
+
+/*INICIO - Configuração do formulário*/
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-form button {background-color: darkgreen; color: #fff;}
+
+main h1 {
+    font-size: 50px;
+    background-color: lightsalmon;
+    padding: 50px;
+    width: 100vw;
+    color: #fff;
+}
+
+form {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    row-gap: 10px;
+    padding: 15px;
+    align-items: center;
+}
+
+form label {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    ;
+}
+
+form input {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+form textarea {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+form button {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 20vw;
+    margin: 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+/*FIM - Configuração do formulário*/
+
+/* INICIO - PAGINA DE CONTATOS*/
