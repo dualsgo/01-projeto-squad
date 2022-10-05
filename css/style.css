@@ -71,21 +71,29 @@ header h1 {
 
 /* INICIO - Configuração do main*/
 .main-hd {
+    width: 100vw;
     display: flex;
     align-items: center;
+    justify-content:center;
     margin-top: 55px;
 }
 
 main img {
-    width: 424px;
+    width: 624px;
     left: 149px;
     top: 550px;
-    margin: 50px;
 }
 
-.maintext {
+.text-main {
     flex-wrap: wrap;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
 }
+
+#fachada  {border: solid; width: 100vw;}
+#slogan {border: solid red;width: 100vw;align-items: center;}
 
 /* FIM - Configuração do main*/
 
@@ -116,7 +124,7 @@ footer {
 /* INICIO - PÁGINA SOBRE*/
 
 .container-sobre h3 {
-    font-size: 45px;
+    font-size: 35px;
     color: #fff;
     background-color: darksalmon;
     width: 100vw;
@@ -128,21 +136,24 @@ footer {
     letter-spacing: 5px;
 }
 
-.container-sobre {
+.container-sobre { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 45px 0 45px 0;
-    gap: 50px;
+    width: 100vw;
+
 }
 
 .texto-sobre {
     display: flex;
     align-items: center;
-    width: 60vw;
+    width: 75vw;
     padding: 15px;
+    gap: 15px;
 }
+
+/* Códigos da embed do mapa*/
 
 .mapouter {
     display: flex;
