@@ -222,11 +222,47 @@ aside {
     letter-spacing: 5px;
 }
 
-#mainprodutos button {
-    border: solid black 2px;
-    padding: 5px;
+/*Configuração do botão de compra*/
+
+.button {
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
     cursor: pointer;
+    margin: 5px;
 }
+
+.button span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: "\0024";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*Configuração do botão de compra*/
+
+/*Configuração das categorias de produtos*/
 
 .linha1 {
     display: flex;
@@ -300,7 +336,18 @@ aside {
     justify-content: center;
 }
 
+@media screen and (max-width: 500px) {
+
+    .linha1,
+    .linha2,
+    .linha3 {
+        display: flex;
+        flex-direction: column;
+            }
+}
+
 /* FIM - PAGINA DE PRODUTOS */
+
 
 
 
