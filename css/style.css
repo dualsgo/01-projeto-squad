@@ -19,8 +19,6 @@ h1 {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap');
-
 
 /* FIM - Configurações padrão para todas as tags*/
 
@@ -49,9 +47,7 @@ nav ul {
     padding: 25px;
 }
 
-
-ul li a:hover {
-    border-radius: 15px;
+ul li a:hover {border-radius: 15px;
     padding: 15px;
     background-color: lightcoral
 }
@@ -69,8 +65,6 @@ header h1 {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
-    font-family: 'Crimson Pro', serif;
-
 }
 
 /* FIM - Configuração da imagem e título principal*/
@@ -80,7 +74,7 @@ header h1 {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     margin-top: 55px;
 }
 
@@ -103,32 +97,31 @@ main img {
 
 
 /* INICIO - Configuração do rodapé */
-
-.container {
+.container{
     max-width: 1170px;
     margin: auto;
 }
 
-.row {
+.row{
     display: flex;
     flex-wrap: wrap;
 }
 
-ul {
+ul{
     list-style: none;
 }
 
-.footer {
-    background-color: darkgreen;
-    padding: 30px 0;
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
 }
 
-.footer-col {
+.footer-col{
     width: 25%;
     padding: 0 15px;
 }
 
-.footer-col h4 {
+.footer-col h4{
     font-size: 18px;
     color: white;
     text-transform: capitalize;
@@ -137,7 +130,7 @@ ul {
     position: relative;
 }
 
-.footer-col h4::before {
+.footer-col h4::before{
     content: '';
     position: absolute;
     left: 0;
@@ -148,11 +141,11 @@ ul {
     width: 50px;
 }
 
-.fotter-col ul li:not(:last-child) {
+.fotter-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
 
-.footer-col ul li a {
+.footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
     color: white;
@@ -163,12 +156,12 @@ ul {
     transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover {
+.footer-col ul li a:hover{
     color: white;
     padding-left: 8px;
 }
 
-.footer-col .social-links a {
+.footer-col .social-links a{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -181,24 +174,23 @@ ul {
     transition: all 0.5s ease;
 }
 
-.footer-col .social-links a:hover {
+.footer-col .social-links a:hover{
     color: #24262b;
     background-color: white;
 }
 
-@media(max-width: 767px) {
-    .footer-col {
+@media(max-width: 767px){
+    .footer-col{
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
-@media(max-width: 574px) {
-    .footer-col {
+@media(max-width: 574px){
+    .footer-col{
         width: 100%;
     }
 }
-
 /* FIM - Configuração do rodapé*/
 
 /*FIM DA PÁGINA PRINCIPAL INDEX*/
@@ -219,13 +211,12 @@ ul {
     letter-spacing: 5px;
 }
 
-.container-sobre {
+.container-sobre { 
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 100vw;
 
 }
 
@@ -236,8 +227,6 @@ ul {
     padding: 15px;
     gap: 15px;
 }
-
-
 
 /* Códigos da embed do mapa*/
 
@@ -256,32 +245,6 @@ ul {
     height: 400px;
     width: 600px;
 }
-
-
-@media (max-width: 574px) {
-    .texto-sobre {
-        flex-wrap: wrap;
-        margin: 5px;
-    }
-
-    .texto-sobre img {
-        width: 350px;
-    }
-
-    .mapouter {
-        width: 300px;
-    }
-
-    .gmap_canvas {
-        width: 300px
-    }
-
-    .container-sobre h3 {
-        width: 100vw;
-        height: auto;
-    }
-}
-
 
 /* FIM - PÁGINA SOBRE*/
 
@@ -313,235 +276,224 @@ aside {
     margin: 20px;
 }
 
-@media (max-width: 500px) {
-    .container-equipe {
-        flex-wrap: wrap;
-        margin: 10px 20px 50px 20px;
-        gap: 5px;
-        width: auto;
-        height: auto;
-        margin: 5px;
-    }
-
-    #asideequipe {
-        flex-direction: column;
-        height: 200vh;
-        margin: 0;
-    }
-
-    /* FIM - PAGINA DA EQUIPE*/
+/* FIM - PAGINA DA EQUIPE*/
 
 
-    /* INICIO - PAGINA DE PRODUTOS*/
+/* INICIO - PAGINA DE PRODUTOS*/
 
-    #mainprodutos {
-        margin: 10px
-    }
+#mainprodutos {
+    margin: 10px
+}
 
-    #mainprodutos h3 {
-        margin: 20px 0 20px 0;
-        font-size: 45px;
-        color: #fff;
-        background-color: darksalmon;
-        width: 100vw;
-        height: 75px;
-        text-align: center;
-        justify-items: center;
-        padding: 10px;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-    }
+#mainprodutos h3 {
+    margin: 20px 0 20px 0;
+    font-size: 45px;
+    color: #fff;
+    background-color: darksalmon;
+    width: 100vw;
+    height: 75px;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 
-    /*Configuração do botão de compra*/
+/*Configuração do botão de compra*/
 
-    .button {
-        border-radius: 4px;
-        background-color: blue;
-        border: none;
-        color: white;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 200px;
-        cursor: pointer;
-        margin: 5px;
-    }
+.button {
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+}
 
-    .button span {
-        position: relative;
-        transition: 0.5s;
-    }
+.button span {
+    position: relative;
+    transition: 0.5s;
+}
 
-    .button span:after {
-        content: "\0024";
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
+.button span:after {
+    content: "\0024";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
 
-    .button:hover span {
-        padding-right: 25px;
-    }
+.button:hover span {
+    padding-right: 25px;
+}
 
-    .button:hover span:after {
-        opacity: 1;
-        right: 0;
-    }
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 
-    /*Configuração do botão de compra*/
+/*Configuração do botão de compra*/
 
-    /*Configuração das categorias de produtos*/
+/*Configuração das categorias de produtos*/
 
-    .linha1 {
-        display: flex;
-        justify-content: space-evenly;
-        gap: 40px
-    }
+.linha1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px
+}
 
-    .linha1 img {
-        width: auto;
-        align-items: center;
-    }
+.linha1 img {
+    width: auto;
+    align-items: center;
+}
 
-    .linha1 p {
-        background-color: green;
-        color: #fff;
-        width: 250px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.linha1 p {
+    background-color: green;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .item {
-        display: flex;
-        flex-direction: column;
-        row-gap: 10px;
+.item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 
-        justify-content: center;
-        align-items: center;
-    }
+    justify-content: center;
+    align-items: center;
+}
 
-    /*FINAL DA LINHA 1*/
-    .linha2 {
-        display: flex;
-        justify-content: space-evenly;
-    }
+/*FINAL DA LINHA 1*/
+.linha2 {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-    .linha2 img {
-        width: auto;
-        align-items: center;
-    }
+.linha2 img {
+    width: auto;
+    align-items: center;
+}
 
-    .linha2 p {
-        background-color: green;
-        color: #fff;
-        width: 250px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.linha2 p {
+    background-color: green;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    /*FINAL DA LINHA 2*/
+/*FINAL DA LINHA 2*/
+.linha3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linha3 img {
+    width: auto;
+    align-items: center;
+}
+
+.linha3 p {
+    background-color: green;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+
+    .linha1,
+    .linha2,
     .linha3 {
         display: flex;
-        justify-content: space-evenly;
-    }
-
-    .linha3 img {
-        width: auto;
-        align-items: center;
-    }
-
-    .linha3 p {
-        background-color: green;
-        color: #fff;
-        width: 250px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    @media screen and (max-width: 500px) {
-
-        .linha1,
-        .linha2,
-        .linha3 {
-            display: flex;
-            flex-direction: column;
-        }
-    }
-
-    /* FIM - PAGINA DE PRODUTOS */
-
-    /* INICIO - PAGINA DE CONTATOS*/
-
-    /*INICIO - Configuração do formulário*/
-
-    .main-form {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+            }
+}
 
-    .main-form button {
-        background-color: darkgreen;
-        color: #fff;
-    }
+/* FIM - PAGINA DE PRODUTOS */
 
-    main h1 {
-        font-size: 50px;
-        background-color: lightsalmon;
-        padding: 50px;
-        width: 100vw;
-        color: #fff;
-    }
 
-    form {
-        margin: 80px;
-        display: flex;
-        flex-direction: column;
-        width: 75vw;
-        row-gap: 10px;
-        padding: 15px;
-        align-items: center;
-    }
 
-    form label {
-        color: black;
-        font-size: 20px;
-        padding: 5px;
-        ;
-    }
 
-    form input {
-        border: 2px solid;
-        border-radius: 15px;
-        padding: 10px;
-        width: 100%;
-    }
+/* INICIO - PAGINA DE CONTATOS*/
 
-    form textarea {
-        border: 2px solid;
-        border-radius: 15px;
-        padding: 10px;
-        width: 100%;
-    }
+/*INICIO - Configuração do formulário*/
 
-    form button {
-        border: 2px solid black;
-        border-radius: 15px;
-        padding: 10px;
-        width: 20vw;
-        margin: 15px;
-        cursor: pointer;
-        color: black;
-        font-size: 20px;
-    }
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    /*FIM - Configuração do formulário*/
+.main-form button {
+    background-color: darkgreen;
+    color: #fff;
+}
+
+main h1 {
+    font-size: 50px;
+    background-color: lightsalmon;
+    padding: 50px;
+    width: 100vw;
+    color: #fff;
+}
+
+form {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    row-gap: 10px;
+    padding: 15px;
+    align-items: center;
+}
+
+form label {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    ;
+}
+
+form input {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+form textarea {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+form button {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 20vw;
+    margin: 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+/*FIM - Configuração do formulário*/
+
+/* INICIO - PAGINA DE CONTATOS*/
