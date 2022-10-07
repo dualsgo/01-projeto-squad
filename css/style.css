@@ -19,6 +19,8 @@ h1 {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap');
+
 
 /* FIM - Configurações padrão para todas as tags*/
 
@@ -47,7 +49,8 @@ nav ul {
     padding: 25px;
 }
 
-ul li a:hover {border-radius: 15px;
+ul li a:hover {
+    border-radius: 15px;
     padding: 15px;
     background-color: lightcoral
 }
@@ -65,6 +68,8 @@ header h1 {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    font-family: 'Crimson Pro', serif;
+
 }
 
 /* FIM - Configuração da imagem e título principal*/
@@ -74,7 +79,7 @@ header h1 {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     margin-top: 55px;
 }
 
@@ -97,31 +102,32 @@ main img {
 
 
 /* INICIO - Configuração do rodapé */
-.container{
+
+.container {
     max-width: 1170px;
     margin: auto;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.footer{
+.footer {
     background-color: #24262b;
     padding: 70px 0;
 }
 
-.footer-col{
+.footer-col {
     width: 25%;
     padding: 0 15px;
 }
 
-.footer-col h4{
+.footer-col h4 {
     font-size: 18px;
     color: white;
     text-transform: capitalize;
@@ -130,7 +136,7 @@ ul{
     position: relative;
 }
 
-.footer-col h4::before{
+.footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
@@ -141,11 +147,11 @@ ul{
     width: 50px;
 }
 
-.fotter-col ul li:not(:last-child){
+.fotter-col ul li:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.footer-col ul li a{
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: white;
@@ -156,12 +162,12 @@ ul{
     transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
     color: white;
     padding-left: 8px;
 }
 
-.footer-col .social-links a{
+.footer-col .social-links a {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -174,23 +180,24 @@ ul{
     transition: all 0.5s ease;
 }
 
-.footer-col .social-links a:hover{
+.footer-col .social-links a:hover {
     color: #24262b;
     background-color: white;
 }
 
-@media(max-width: 767px){
-    .footer-col{
+@media(max-width: 767px) {
+    .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
-@media(max-width: 574px){
-    .footer-col{
+@media(max-width: 574px) {
+    .footer-col {
         width: 100%;
     }
 }
+
 /* FIM - Configuração do rodapé*/
 
 /*FIM DA PÁGINA PRINCIPAL INDEX*/
@@ -211,7 +218,7 @@ ul{
     letter-spacing: 5px;
 }
 
-.container-sobre { 
+.container-sobre {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -420,7 +427,7 @@ aside {
     .linha3 {
         display: flex;
         flex-direction: column;
-            }
+    }
 }
 
 /* FIM - PAGINA DE PRODUTOS */
