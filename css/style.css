@@ -49,7 +49,9 @@ nav ul {
     padding: 25px;
 }
 
-ul li a:hover {border-radius: 15px;
+
+ul li a:hover {
+    border-radius: 15px;
     padding: 15px;
     background-color: lightcoral
 }
@@ -67,6 +69,8 @@ header h1 {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    font-family: 'Crimson Pro', serif;
+
 }
 
 /* FIM - Configuração da imagem e título principal*/
@@ -76,7 +80,7 @@ header h1 {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     margin-top: 55px;
 }
 
@@ -100,20 +104,99 @@ main img {
 
 /* INICIO - Configuração do rodapé */
 
-footer {
-    width: 100vw;
-    height: 50px;
-    padding: 25px;
-    background-color: darkgreen;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+.container {
+    max-width: 1170px;
+    margin: auto;
 }
 
-.container ul {
+.row {
     display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
     list-style: none;
+}
+
+.footer {
+    background-color: darkgreen;
+    padding: 30px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.fotter-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: white;
+}
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
 }
 
 /* FIM - Configuração do rodapé*/
@@ -136,7 +219,7 @@ footer {
     letter-spacing: 5px;
 }
 
-.container-sobre { 
+.container-sobre {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -269,17 +352,53 @@ aside {
         letter-spacing: 5px;
     }
 
-#mainprodutos button {
-    border: solid black 2px;
-    padding: 5px;
-    cursor: pointer;
-}
+    /*Configuração do botão de compra*/
 
-.linha1 {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px
-}
+    .button {
+        border-radius: 4px;
+        background-color: blue;
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .button span {
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .button span:after {
+        content: "\0024";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    /*Configuração do botão de compra*/
+
+    /*Configuração das categorias de produtos*/
+
+    .linha1 {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px
+    }
 
     .linha1 img {
         width: auto;
@@ -347,7 +466,7 @@ aside {
         justify-content: center;
     }
 
-/* FIM - PAGINA DE PRODUTOS */
+    @media screen and (max-width: 500px) {
 
         .linha1,
         .linha2,
@@ -359,7 +478,7 @@ aside {
 
     /* FIM - PAGINA DE PRODUTOS */
 
-/* INICIO - PAGINA DE CONTATOS*/
+    /* INICIO - PAGINA DE CONTATOS*/
 
     /*INICIO - Configuração do formulário*/
 
@@ -425,6 +544,4 @@ aside {
         font-size: 20px;
     }
 
-/*FIM - Configuração do formulário*/
-
-/* INICIO - PAGINA DE CONTATOS*/
+    /*FIM - Configuração do formulário*/
