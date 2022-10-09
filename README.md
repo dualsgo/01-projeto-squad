@@ -1,12 +1,11 @@
 PROJETO SQUAD Nº 4 - MÓDULO 1 - "AJUDE UM MICROEMPREENDEDOR"
 
-📝 Descrição
+📝 Contexto
 
-Este projeto foi desenvolvido com o intuito de apresentar um protótipo de site para uma empresa no ramo de floricultura localizada no bairro de Irajá.
+Nossa equipe foi chamada por um negócio local para construir seu primeiro site. Sabe aquela loja ou empresa pequena que fica por ali nas redondezas do seu bairro? 
+Eles querem uma força para criar sua presença online e seu time vai colocar todo o conhecimento do módulo para dar essa força!
 
 📚 Funcionalidades
-
-Funcionalidade 1: O que essa funcionalidade faz?
 
 🔧 Tecnologias utilizadas
 
